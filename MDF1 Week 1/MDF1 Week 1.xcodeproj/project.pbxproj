@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3D0AFF1611428A00FC860A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3D0AFE1611428A00FC860A /* UIKit.framework */; };
+		3F3D0B011611428A00FC860A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3D0B001611428A00FC860A /* Foundation.framework */; };
+		3F3D0B031611428A00FC860A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3D0B021611428A00FC860A /* CoreGraphics.framework */; };
+		3F3D0B091611428A00FC860A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B071611428A00FC860A /* InfoPlist.strings */; };
+		3F3D0B0B1611428A00FC860A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D0B0A1611428A00FC860A /* main.m */; };
+		3F3D0B0F1611428A00FC860A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D0B0E1611428A00FC860A /* AppDelegate.m */; };
+		3F3D0B111611428A00FC860A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B101611428A00FC860A /* Default.png */; };
+		3F3D0B131611428A00FC860A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B121611428A00FC860A /* Default@2x.png */; };
+		3F3D0B151611428A00FC860A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B141611428A00FC860A /* Default-568h@2x.png */; };
+		3F3D0B181611428A00FC860A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D0B171611428A00FC860A /* MainViewController.m */; };
+		3F3D0B1B1611428A00FC860A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B191611428A00FC860A /* MainViewController.xib */; };
+		3F3D0B2A1611484500FC860A /* MotoSpeedMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D0B291611484500FC860A /* MotoSpeedMainCell.m */; };
+		3F3D0B2C1611485B00FC860A /* MotoSpeedMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B2B1611485B00FC860A /* MotoSpeedMainCell.xib */; };
+		3F3D0B4216114C4C00FC860A /* apriliatuono1000r.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B2E16114C4C00FC860A /* apriliatuono1000r.jpeg */; };
+		3F3D0B4316114C4C00FC860A /* benellitntr160.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B2F16114C4C00FC860A /* benellitntr160.jpeg */; };
+		3F3D0B4416114C4C00FC860A /* bimotadb6r.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3016114C4C00FC860A /* bimotadb6r.jpeg */; };
+		3F3D0B4516114C4C00FC860A /* buelllightningxb12Ssb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3116114C4C00FC860A /* buelllightningxb12Ssb.jpeg */; };
+		3F3D0B4616114C4C00FC860A /* ducatidiavelcarbon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3216114C4C00FC860A /* ducatidiavelcarbon.jpeg */; };
+		3F3D0B4716114C4C00FC860A /* ducatimonster1100evo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3316114C4C00FC860A /* ducatimonster1100evo.jpeg */; };
+		3F3D0B4816114C4C00FC860A /* ducatistreetfighters.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3416114C4C00FC860A /* ducatistreetfighters.jpeg */; };
+		3F3D0B4916114C4C00FC860A /* fionda1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3516114C4C00FC860A /* fionda1.jpeg */; };
+		3F3D0B4A16114C4C00FC860A /* hondacb1000r.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3616114C4C00FC860A /* hondacb1000r.jpeg */; };
+		3F3D0B4B16114C4C00FC860A /* hondacbx1000.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3716114C4C00FC860A /* hondacbx1000.jpeg */; };
+		3F3D0B4C16114C4C00FC860A /* kawasakiz1000.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3816114C4C00FC860A /* kawasakiz1000.jpeg */; };
+		3F3D0B4D16114C4C00FC860A /* motofgrmidalu2500.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3916114C4C00FC860A /* motofgrmidalu2500.jpeg */; };
+		3F3D0B4E16114C4C00FC860A /* motoguzzigriso12008v.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3A16114C4C00FC860A /* motoguzzigriso12008v.jpeg */; };
+		3F3D0B4F16114C4C00FC860A /* mvagustabrutale1090rr.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3B16114C4C00FC860A /* mvagustabrutale1090rr.jpeg */; };
+		3F3D0B5016114C4C00FC860A /* ncrmacchianera.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3C16114C4C00FC860A /* ncrmacchianera.jpeg */; };
+		3F3D0B5116114C4C00FC860A /* norton961commando.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3D16114C4C00FC860A /* norton961commando.jpeg */; };
+		3F3D0B5216114C4C00FC860A /* suzukisgsf1200bandit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3E16114C4C00FC860A /* suzukisgsf1200bandit.jpeg */; };
+		3F3D0B5316114C4C00FC860A /* triumphspeedtriple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B3F16114C4C00FC860A /* triumphspeedtriple.jpeg */; };
+		3F3D0B5416114C4C00FC860A /* vyrus985.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B4016114C4C00FC860A /* vyrus985.jpeg */; };
+		3F3D0B5516114C4C00FC860A /* yamahafz1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B4116114C4C00FC860A /* yamahafz1.jpeg */; };
+		3F3D0B6B1611538D00FC860A /* bikes.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B6A1611538D00FC860A /* bikes.json */; };
+		3F3D0B6F1611597000FC860A /* MotoSpeedBike.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D0B6E1611597000FC860A /* MotoSpeedBike.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F3D0AFA1611428A00FC860A /* MDF1 Week 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDF1 Week 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3D0AFE1611428A00FC860A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F3D0B001611428A00FC860A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F3D0B021611428A00FC860A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F3D0B061611428A00FC860A /* MDF1 Week 1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDF1 Week 1-Info.plist"; sourceTree = "<group>"; };
+		3F3D0B081611428A00FC860A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F3D0B0A1611428A00FC860A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F3D0B0C1611428A00FC860A /* MDF1 Week 1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDF1 Week 1-Prefix.pch"; sourceTree = "<group>"; };
+		3F3D0B0D1611428A00FC860A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F3D0B0E1611428A00FC860A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F3D0B101611428A00FC860A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3F3D0B121611428A00FC860A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F3D0B141611428A00FC860A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F3D0B161611428A00FC860A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3F3D0B171611428A00FC860A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3F3D0B1A1611428A00FC860A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		3F3D0B281611484500FC860A /* MotoSpeedMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotoSpeedMainCell.h; sourceTree = "<group>"; };
+		3F3D0B291611484500FC860A /* MotoSpeedMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotoSpeedMainCell.m; sourceTree = "<group>"; };
+		3F3D0B2B1611485B00FC860A /* MotoSpeedMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MotoSpeedMainCell.xib; sourceTree = "<group>"; };
+		3F3D0B2E16114C4C00FC860A /* apriliatuono1000r.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apriliatuono1000r.jpeg; path = images/apriliatuono1000r.jpeg; sourceTree = "<group>"; };
+		3F3D0B2F16114C4C00FC860A /* benellitntr160.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = benellitntr160.jpeg; path = images/benellitntr160.jpeg; sourceTree = "<group>"; };
+		3F3D0B3016114C4C00FC860A /* bimotadb6r.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bimotadb6r.jpeg; path = images/bimotadb6r.jpeg; sourceTree = "<group>"; };
+		3F3D0B3116114C4C00FC860A /* buelllightningxb12Ssb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = buelllightningxb12Ssb.jpeg; path = images/buelllightningxb12Ssb.jpeg; sourceTree = "<group>"; };
+		3F3D0B3216114C4C00FC860A /* ducatidiavelcarbon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ducatidiavelcarbon.jpeg; path = images/ducatidiavelcarbon.jpeg; sourceTree = "<group>"; };
+		3F3D0B3316114C4C00FC860A /* ducatimonster1100evo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ducatimonster1100evo.jpeg; path = images/ducatimonster1100evo.jpeg; sourceTree = "<group>"; };
+		3F3D0B3416114C4C00FC860A /* ducatistreetfighters.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ducatistreetfighters.jpeg; path = images/ducatistreetfighters.jpeg; sourceTree = "<group>"; };
+		3F3D0B3516114C4C00FC860A /* fionda1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fionda1.jpeg; path = images/fionda1.jpeg; sourceTree = "<group>"; };
+		3F3D0B3616114C4C00FC860A /* hondacb1000r.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hondacb1000r.jpeg; path = images/hondacb1000r.jpeg; sourceTree = "<group>"; };
+		3F3D0B3716114C4C00FC860A /* hondacbx1000.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hondacbx1000.jpeg; path = images/hondacbx1000.jpeg; sourceTree = "<group>"; };
+		3F3D0B3816114C4C00FC860A /* kawasakiz1000.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kawasakiz1000.jpeg; path = images/kawasakiz1000.jpeg; sourceTree = "<group>"; };
+		3F3D0B3916114C4C00FC860A /* motofgrmidalu2500.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = motofgrmidalu2500.jpeg; path = images/motofgrmidalu2500.jpeg; sourceTree = "<group>"; };
+		3F3D0B3A16114C4C00FC860A /* motoguzzigriso12008v.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = motoguzzigriso12008v.jpeg; path = images/motoguzzigriso12008v.jpeg; sourceTree = "<group>"; };
+		3F3D0B3B16114C4C00FC860A /* mvagustabrutale1090rr.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mvagustabrutale1090rr.jpeg; path = images/mvagustabrutale1090rr.jpeg; sourceTree = "<group>"; };
+		3F3D0B3C16114C4C00FC860A /* ncrmacchianera.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ncrmacchianera.jpeg; path = images/ncrmacchianera.jpeg; sourceTree = "<group>"; };
+		3F3D0B3D16114C4C00FC860A /* norton961commando.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = norton961commando.jpeg; path = images/norton961commando.jpeg; sourceTree = "<group>"; };
+		3F3D0B3E16114C4C00FC860A /* suzukisgsf1200bandit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = suzukisgsf1200bandit.jpeg; path = images/suzukisgsf1200bandit.jpeg; sourceTree = "<group>"; };
+		3F3D0B3F16114C4C00FC860A /* triumphspeedtriple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = triumphspeedtriple.jpeg; path = images/triumphspeedtriple.jpeg; sourceTree = "<group>"; };
+		3F3D0B4016114C4C00FC860A /* vyrus985.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vyrus985.jpeg; path = images/vyrus985.jpeg; sourceTree = "<group>"; };
+		3F3D0B4116114C4C00FC860A /* yamahafz1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yamahafz1.jpeg; path = images/yamahafz1.jpeg; sourceTree = "<group>"; };
+		3F3D0B6A1611538D00FC860A /* bikes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bikes.json; sourceTree = "<group>"; };
+		3F3D0B6D1611597000FC860A /* MotoSpeedBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotoSpeedBike.h; sourceTree = "<group>"; };
+		3F3D0B6E1611597000FC860A /* MotoSpeedBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotoSpeedBike.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3D0AF71611428A00FC860A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D0AFF1611428A00FC860A /* UIKit.framework in Frameworks */,
+				3F3D0B011611428A00FC860A /* Foundation.framework in Frameworks */,
+				3F3D0B031611428A00FC860A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3D0AEF1611428A00FC860A = {
+			isa = PBXGroup;
+			children = (
+				3F3D0B041611428A00FC860A /* MDF1 Week 1 */,
+				3F3D0AFD1611428A00FC860A /* Frameworks */,
+				3F3D0AFB1611428A00FC860A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3D0AFB1611428A00FC860A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0AFA1611428A00FC860A /* MDF1 Week 1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3D0AFD1611428A00FC860A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0AFE1611428A00FC860A /* UIKit.framework */,
+				3F3D0B001611428A00FC860A /* Foundation.framework */,
+				3F3D0B021611428A00FC860A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F3D0B041611428A00FC860A /* MDF1 Week 1 */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0B2D16114C3A00FC860A /* images */,
+				3F3D0B221611477900FC860A /* Classes */,
+				3F3D0B211611476C00FC860A /* Application */,
+				3F3D0B051611428A00FC860A /* Supporting Files */,
+			);
+			path = "MDF1 Week 1";
+			sourceTree = "<group>";
+		};
+		3F3D0B051611428A00FC860A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0B6A1611538D00FC860A /* bikes.json */,
+				3F3D0B061611428A00FC860A /* MDF1 Week 1-Info.plist */,
+				3F3D0B071611428A00FC860A /* InfoPlist.strings */,
+				3F3D0B0A1611428A00FC860A /* main.m */,
+				3F3D0B0C1611428A00FC860A /* MDF1 Week 1-Prefix.pch */,
+				3F3D0B101611428A00FC860A /* Default.png */,
+				3F3D0B121611428A00FC860A /* Default@2x.png */,
+				3F3D0B141611428A00FC860A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F3D0B211611476C00FC860A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0B0D1611428A00FC860A /* AppDelegate.h */,
+				3F3D0B0E1611428A00FC860A /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		3F3D0B221611477900FC860A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0B6C1611594C00FC860A /* Custom Objects */,
+				3F3D0B241611478C00FC860A /* VIews */,
+				3F3D0B231611478100FC860A /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3F3D0B231611478100FC860A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0B161611428A00FC860A /* MainViewController.h */,
+				3F3D0B171611428A00FC860A /* MainViewController.m */,
+				3F3D0B191611428A00FC860A /* MainViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F3D0B241611478C00FC860A /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0B281611484500FC860A /* MotoSpeedMainCell.h */,
+				3F3D0B291611484500FC860A /* MotoSpeedMainCell.m */,
+				3F3D0B2B1611485B00FC860A /* MotoSpeedMainCell.xib */,
+			);
+			name = VIews;
+			sourceTree = "<group>";
+		};
+		3F3D0B2D16114C3A00FC860A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0B2E16114C4C00FC860A /* apriliatuono1000r.jpeg */,
+				3F3D0B2F16114C4C00FC860A /* benellitntr160.jpeg */,
+				3F3D0B3016114C4C00FC860A /* bimotadb6r.jpeg */,
+				3F3D0B3116114C4C00FC860A /* buelllightningxb12Ssb.jpeg */,
+				3F3D0B3216114C4C00FC860A /* ducatidiavelcarbon.jpeg */,
+				3F3D0B3316114C4C00FC860A /* ducatimonster1100evo.jpeg */,
+				3F3D0B3416114C4C00FC860A /* ducatistreetfighters.jpeg */,
+				3F3D0B3516114C4C00FC860A /* fionda1.jpeg */,
+				3F3D0B3616114C4C00FC860A /* hondacb1000r.jpeg */,
+				3F3D0B3716114C4C00FC860A /* hondacbx1000.jpeg */,
+				3F3D0B3816114C4C00FC860A /* kawasakiz1000.jpeg */,
+				3F3D0B3916114C4C00FC860A /* motofgrmidalu2500.jpeg */,
+				3F3D0B3A16114C4C00FC860A /* motoguzzigriso12008v.jpeg */,
+				3F3D0B3B16114C4C00FC860A /* mvagustabrutale1090rr.jpeg */,
+				3F3D0B3C16114C4C00FC860A /* ncrmacchianera.jpeg */,
+				3F3D0B3D16114C4C00FC860A /* norton961commando.jpeg */,
+				3F3D0B3E16114C4C00FC860A /* suzukisgsf1200bandit.jpeg */,
+				3F3D0B3F16114C4C00FC860A /* triumphspeedtriple.jpeg */,
+				3F3D0B4016114C4C00FC860A /* vyrus985.jpeg */,
+				3F3D0B4116114C4C00FC860A /* yamahafz1.jpeg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		3F3D0B6C1611594C00FC860A /* Custom Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D0B6D1611597000FC860A /* MotoSpeedBike.h */,
+				3F3D0B6E1611597000FC860A /* MotoSpeedBike.m */,
+			);
+			name = "Custom Objects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3D0AF91611428A00FC860A /* MDF1 Week 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3D0B1E1611428A00FC860A /* Build configuration list for PBXNativeTarget "MDF1 Week 1" */;
+			buildPhases = (
+				3F3D0AF61611428A00FC860A /* Sources */,
+				3F3D0AF71611428A00FC860A /* Frameworks */,
+				3F3D0AF81611428A00FC860A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MDF1 Week 1";
+			productName = "MDF1 Week 1";
+			productReference = 3F3D0AFA1611428A00FC860A /* MDF1 Week 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3D0AF11611428A00FC860A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jeremy Fox";
+			};
+			buildConfigurationList = 3F3D0AF41611428A00FC860A /* Build configuration list for PBXProject "MDF1 Week 1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F3D0AEF1611428A00FC860A;
+			productRefGroup = 3F3D0AFB1611428A00FC860A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3D0AF91611428A00FC860A /* MDF1 Week 1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3D0AF81611428A00FC860A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D0B091611428A00FC860A /* InfoPlist.strings in Resources */,
+				3F3D0B111611428A00FC860A /* Default.png in Resources */,
+				3F3D0B131611428A00FC860A /* Default@2x.png in Resources */,
+				3F3D0B151611428A00FC860A /* Default-568h@2x.png in Resources */,
+				3F3D0B1B1611428A00FC860A /* MainViewController.xib in Resources */,
+				3F3D0B2C1611485B00FC860A /* MotoSpeedMainCell.xib in Resources */,
+				3F3D0B4216114C4C00FC860A /* apriliatuono1000r.jpeg in Resources */,
+				3F3D0B4316114C4C00FC860A /* benellitntr160.jpeg in Resources */,
+				3F3D0B4416114C4C00FC860A /* bimotadb6r.jpeg in Resources */,
+				3F3D0B4516114C4C00FC860A /* buelllightningxb12Ssb.jpeg in Resources */,
+				3F3D0B4616114C4C00FC860A /* ducatidiavelcarbon.jpeg in Resources */,
+				3F3D0B4716114C4C00FC860A /* ducatimonster1100evo.jpeg in Resources */,
+				3F3D0B4816114C4C00FC860A /* ducatistreetfighters.jpeg in Resources */,
+				3F3D0B4916114C4C00FC860A /* fionda1.jpeg in Resources */,
+				3F3D0B4A16114C4C00FC860A /* hondacb1000r.jpeg in Resources */,
+				3F3D0B4B16114C4C00FC860A /* hondacbx1000.jpeg in Resources */,
+				3F3D0B4C16114C4C00FC860A /* kawasakiz1000.jpeg in Resources */,
+				3F3D0B4D16114C4C00FC860A /* motofgrmidalu2500.jpeg in Resources */,
+				3F3D0B4E16114C4C00FC860A /* motoguzzigriso12008v.jpeg in Resources */,
+				3F3D0B4F16114C4C00FC860A /* mvagustabrutale1090rr.jpeg in Resources */,
+				3F3D0B5016114C4C00FC860A /* ncrmacchianera.jpeg in Resources */,
+				3F3D0B5116114C4C00FC860A /* norton961commando.jpeg in Resources */,
+				3F3D0B5216114C4C00FC860A /* suzukisgsf1200bandit.jpeg in Resources */,
+				3F3D0B5316114C4C00FC860A /* triumphspeedtriple.jpeg in Resources */,
+				3F3D0B5416114C4C00FC860A /* vyrus985.jpeg in Resources */,
+				3F3D0B5516114C4C00FC860A /* yamahafz1.jpeg in Resources */,
+				3F3D0B6B1611538D00FC860A /* bikes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3D0AF61611428A00FC860A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D0B0B1611428A00FC860A /* main.m in Sources */,
+				3F3D0B0F1611428A00FC860A /* AppDelegate.m in Sources */,
+				3F3D0B181611428A00FC860A /* MainViewController.m in Sources */,
+				3F3D0B2A1611484500FC860A /* MotoSpeedMainCell.m in Sources */,
+				3F3D0B6F1611597000FC860A /* MotoSpeedBike.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F3D0B071611428A00FC860A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3D0B081611428A00FC860A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F3D0B191611428A00FC860A /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3D0B1A1611428A00FC860A /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3D0B1C1611428A00FC860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F3D0B1D1611428A00FC860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3D0B1F1611428A00FC860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDF1 Week 1/MDF1 Week 1-Prefix.pch";
+				INFOPLIST_FILE = "MDF1 Week 1/MDF1 Week 1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F3D0B201611428A00FC860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDF1 Week 1/MDF1 Week 1-Prefix.pch";
+				INFOPLIST_FILE = "MDF1 Week 1/MDF1 Week 1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3D0AF41611428A00FC860A /* Build configuration list for PBXProject "MDF1 Week 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3D0B1C1611428A00FC860A /* Debug */,
+				3F3D0B1D1611428A00FC860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3D0B1E1611428A00FC860A /* Build configuration list for PBXNativeTarget "MDF1 Week 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3D0B1F1611428A00FC860A /* Debug */,
+				3F3D0B201611428A00FC860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3D0AF11611428A00FC860A /* Project object */;
+}

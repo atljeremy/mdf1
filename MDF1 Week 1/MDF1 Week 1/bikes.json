@@ -1,0 +1,125 @@
+{
+    "total_records":20,
+    "bikes":[
+        {
+            "bike_title":"Ducati Streetfighter S",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Honda CB1000R",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"MV Agusta Brutale 1090RR",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Ducati Diavel Carbon",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Suzuki Bandit GSF1200",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Vyrus 985",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"NCR Macchia Nera",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Yamaha FZ1",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Moto Guzzi Griso 1200 8V",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Triumph Speed Triple",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Bimota DB6 R",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Ghezzi-Brian Fionda",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Norton Commando 961SE",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Ducati Monster 1100 EVO",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Kawasaki Z1000",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Aprilia Tuono 1000 R Factory",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Benelli Tornado Naked TRE R160",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Buell Lightning XB12S",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"Honda CBX1000",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+        {
+            "bike_title":"FGR Midalu 2500 V6",
+            "bike_subtitle":"bar",
+            "bike_image":"image",
+            "bike_detail":"details",
+        },
+    ]
+}
