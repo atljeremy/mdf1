@@ -8,10 +8,8 @@
 
 #import "MainViewController.h"
 #import "MotoSpeedMainCell.h"
-
-#define kMainCellIdentifier @"MainCell"
-#define kBikesObjectKey @"bikes"
-#define kTotalRecordsKey @"total_records"
+#import "MotoSpeedConstants.h"
+#import "DetailViewController.h"
 
 @interface MainViewController () {
     NSNumber*     total_records;
@@ -23,9 +21,23 @@
 
 @implementation MainViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self.navigationItem setTitle:@"MotoSpeed"];
+    
+    UIBarButtonItem* edit = [[UIBarButtonItem alloc] initWithTitle:@"edit"
+                                                             style:UIBarButtonSystemItemEdit
+                                                            target:self
+                                                            action:@selector(editList)];
+    self.navigationItem.rightBarButtonItem = edit;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self.mainTableView registerNib:[UINib nibWithNibName:@"MotoSpeedMainCell" bundle:nil] forCellReuseIdentifier:@"MainCell"];
     
     NSError*  error;
     NSString* dataPath = [NSString stringWithFormat:@"%@/bikes.json", [[NSBundle mainBundle] resourcePath]];
@@ -57,14 +69,36 @@
     
     MotoSpeedMainCell *cell = [tableView dequeueReusableCellWithIdentifier:kMainCellIdentifier];
     
-    if (cell == nil) {
-        cell = [[MotoSpeedMainCell alloc] initWithStyle:UITableViewCellStyleDefault
-                                        reuseIdentifier:kMainCellIdentifier];
-    }
-    
     [cell configureCellWithBikeObject:currentBike];
     
     return cell;
+}
+
+#pragma mark - UITableViewDelegate Optional Methods
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return kMainCellHeight;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSDictionary* currentBike = [bikesArray objectAtIndex:indexPath.row];
+    
+    DetailViewController* detailVC = [[DetailViewController alloc] initWithNibName:kDetailVCNib bundle:nil];
+    detailVC.bikeObject = currentBike;
+    
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
+
+#pragma mark - Custom Methods
+
+- (void)editList {
+    if (!self.mainTableView.editing) {
+        [self.mainTableView setEditing:YES animated:YES];
+    } else {
+        [self.mainTableView setEditing:NO animated:YES];
+    }
+
 }
 
 @end

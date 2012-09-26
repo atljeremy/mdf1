@@ -7,8 +7,7 @@
 //
 
 #import "MotoSpeedMainCell.h"
-
-#define kBikeTitleKey @"bike_title"
+#import "MotoSpeedConstants.h"
 
 @implementation MotoSpeedMainCell
 
@@ -16,9 +15,6 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.cellTitleLabel    = [[UILabel alloc] init];
-        self.cellSubtitleLabel = [[UILabel alloc] init];
-        self.cellImageView     = [[UIImageView alloc] init];
     }
     return self;
 }
@@ -34,8 +30,8 @@
     
     
     self.cellTitleLabel.text = [bikeObject objectForKey:kBikeTitleKey];
-    
-    NSLog(@"%@", self.cellTitleLabel.text);
+    self.cellSubtitleLabel.text = [bikeObject objectForKey:kBikeSubtitleKey];
+    self.cellImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@.jpeg", [bikeObject objectForKey:kBikeImageKey]]];
     
 }
 

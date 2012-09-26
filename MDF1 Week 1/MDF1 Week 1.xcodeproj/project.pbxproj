@@ -42,6 +42,15 @@
 		3F3D0B5516114C4C00FC860A /* yamahafz1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B4116114C4C00FC860A /* yamahafz1.jpeg */; };
 		3F3D0B6B1611538D00FC860A /* bikes.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0B6A1611538D00FC860A /* bikes.json */; };
 		3F3D0B6F1611597000FC860A /* MotoSpeedBike.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D0B6E1611597000FC860A /* MotoSpeedBike.m */; };
+		3FBC7585161287CD00EF2638 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC7583161287CD00EF2638 /* DetailViewController.m */; };
+		3FBC7586161287CD00EF2638 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC7584161287CD00EF2638 /* DetailViewController.xib */; };
+		3FBC759D16128B8B00EF2638 /* KenBurnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC759C16128B8B00EF2638 /* KenBurnsView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FBC75A016128D3D00EF2638 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBC759F16128D3D00EF2638 /* QuartzCore.framework */; };
+		3FBC75A31612927E00EF2638 /* Moto-Speed-Detail-Fade.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC75A11612927E00EF2638 /* Moto-Speed-Detail-Fade.png */; };
+		3FBC75A41612927E00EF2638 /* Moto-Speed-Detail-Fade@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC75A21612927E00EF2638 /* Moto-Speed-Detail-Fade@2x.png */; };
+		3FBC75A7161294CB00EF2638 /* Moto-Speed-Drop-Shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC75A5161294CB00EF2638 /* Moto-Speed-Drop-Shadow@2x.png */; };
+		3FBC75AA1612951100EF2638 /* Moto-Speed-Drop-Shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC75A91612951100EF2638 /* Moto-Speed-Drop-Shadow.png */; };
+		3FBC75AE16129AC200EF2638 /* MotoSpeedConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC75AD16129AC200EF2638 /* MotoSpeedConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +96,18 @@
 		3F3D0B6A1611538D00FC860A /* bikes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bikes.json; sourceTree = "<group>"; };
 		3F3D0B6D1611597000FC860A /* MotoSpeedBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotoSpeedBike.h; sourceTree = "<group>"; };
 		3F3D0B6E1611597000FC860A /* MotoSpeedBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotoSpeedBike.m; sourceTree = "<group>"; };
+		3FBC7582161287CD00EF2638 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3FBC7583161287CD00EF2638 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3FBC7584161287CD00EF2638 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		3FBC759B16128B8B00EF2638 /* KenBurnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenBurnsView.h; sourceTree = "<group>"; };
+		3FBC759C16128B8B00EF2638 /* KenBurnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KenBurnsView.m; sourceTree = "<group>"; };
+		3FBC759F16128D3D00EF2638 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3FBC75A11612927E00EF2638 /* Moto-Speed-Detail-Fade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Moto-Speed-Detail-Fade.png"; path = "images/Moto-Speed-Detail-Fade.png"; sourceTree = "<group>"; };
+		3FBC75A21612927E00EF2638 /* Moto-Speed-Detail-Fade@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Moto-Speed-Detail-Fade@2x.png"; path = "images/Moto-Speed-Detail-Fade@2x.png"; sourceTree = "<group>"; };
+		3FBC75A5161294CB00EF2638 /* Moto-Speed-Drop-Shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Moto-Speed-Drop-Shadow@2x.png"; path = "images/Moto-Speed-Drop-Shadow@2x.png"; sourceTree = "<group>"; };
+		3FBC75A91612951100EF2638 /* Moto-Speed-Drop-Shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Moto-Speed-Drop-Shadow.png"; path = "images/Moto-Speed-Drop-Shadow.png"; sourceTree = "<group>"; };
+		3FBC75AC16129AC200EF2638 /* MotoSpeedConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotoSpeedConstants.h; sourceTree = "<group>"; };
+		3FBC75AD16129AC200EF2638 /* MotoSpeedConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotoSpeedConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBC75A016128D3D00EF2638 /* QuartzCore.framework in Frameworks */,
 				3F3D0AFF1611428A00FC860A /* UIKit.framework in Frameworks */,
 				3F3D0B011611428A00FC860A /* Foundation.framework in Frameworks */,
 				3F3D0B031611428A00FC860A /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +128,7 @@
 		3F3D0AEF1611428A00FC860A = {
 			isa = PBXGroup;
 			children = (
+				3FBC759F16128D3D00EF2638 /* QuartzCore.framework */,
 				3F3D0B041611428A00FC860A /* MDF1 Week 1 */,
 				3F3D0AFD1611428A00FC860A /* Frameworks */,
 				3F3D0AFB1611428A00FC860A /* Products */,
@@ -126,6 +149,7 @@
 				3F3D0AFE1611428A00FC860A /* UIKit.framework */,
 				3F3D0B001611428A00FC860A /* Foundation.framework */,
 				3F3D0B021611428A00FC860A /* CoreGraphics.framework */,
+				3FBC759E16128B9000EF2638 /* KenBurnsView */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,8 +192,9 @@
 		3F3D0B221611477900FC860A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3FBC75AB16129AA500EF2638 /* Constants */,
 				3F3D0B6C1611594C00FC860A /* Custom Objects */,
-				3F3D0B241611478C00FC860A /* VIews */,
+				3F3D0B241611478C00FC860A /* Cells */,
 				3F3D0B231611478100FC860A /* ViewControllers */,
 			);
 			name = Classes;
@@ -181,23 +206,30 @@
 				3F3D0B161611428A00FC860A /* MainViewController.h */,
 				3F3D0B171611428A00FC860A /* MainViewController.m */,
 				3F3D0B191611428A00FC860A /* MainViewController.xib */,
+				3FBC7582161287CD00EF2638 /* DetailViewController.h */,
+				3FBC7583161287CD00EF2638 /* DetailViewController.m */,
+				3FBC7584161287CD00EF2638 /* DetailViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		3F3D0B241611478C00FC860A /* VIews */ = {
+		3F3D0B241611478C00FC860A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				3F3D0B281611484500FC860A /* MotoSpeedMainCell.h */,
 				3F3D0B291611484500FC860A /* MotoSpeedMainCell.m */,
 				3F3D0B2B1611485B00FC860A /* MotoSpeedMainCell.xib */,
 			);
-			name = VIews;
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		3F3D0B2D16114C3A00FC860A /* images */ = {
 			isa = PBXGroup;
 			children = (
+				3FBC75A91612951100EF2638 /* Moto-Speed-Drop-Shadow.png */,
+				3FBC75A5161294CB00EF2638 /* Moto-Speed-Drop-Shadow@2x.png */,
+				3FBC75A11612927E00EF2638 /* Moto-Speed-Detail-Fade.png */,
+				3FBC75A21612927E00EF2638 /* Moto-Speed-Detail-Fade@2x.png */,
 				3F3D0B2E16114C4C00FC860A /* apriliatuono1000r.jpeg */,
 				3F3D0B2F16114C4C00FC860A /* benellitntr160.jpeg */,
 				3F3D0B3016114C4C00FC860A /* bimotadb6r.jpeg */,
@@ -229,6 +261,24 @@
 				3F3D0B6E1611597000FC860A /* MotoSpeedBike.m */,
 			);
 			name = "Custom Objects";
+			sourceTree = "<group>";
+		};
+		3FBC759E16128B9000EF2638 /* KenBurnsView */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC759B16128B8B00EF2638 /* KenBurnsView.h */,
+				3FBC759C16128B8B00EF2638 /* KenBurnsView.m */,
+			);
+			name = KenBurnsView;
+			sourceTree = "<group>";
+		};
+		3FBC75AB16129AA500EF2638 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC75AC16129AC200EF2638 /* MotoSpeedConstants.h */,
+				3FBC75AD16129AC200EF2638 /* MotoSpeedConstants.m */,
+			);
+			name = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +359,11 @@
 				3F3D0B5416114C4C00FC860A /* vyrus985.jpeg in Resources */,
 				3F3D0B5516114C4C00FC860A /* yamahafz1.jpeg in Resources */,
 				3F3D0B6B1611538D00FC860A /* bikes.json in Resources */,
+				3FBC7586161287CD00EF2638 /* DetailViewController.xib in Resources */,
+				3FBC75A31612927E00EF2638 /* Moto-Speed-Detail-Fade.png in Resources */,
+				3FBC75A41612927E00EF2638 /* Moto-Speed-Detail-Fade@2x.png in Resources */,
+				3FBC75A7161294CB00EF2638 /* Moto-Speed-Drop-Shadow@2x.png in Resources */,
+				3FBC75AA1612951100EF2638 /* Moto-Speed-Drop-Shadow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +379,9 @@
 				3F3D0B181611428A00FC860A /* MainViewController.m in Sources */,
 				3F3D0B2A1611484500FC860A /* MotoSpeedMainCell.m in Sources */,
 				3F3D0B6F1611597000FC860A /* MotoSpeedBike.m in Sources */,
+				3FBC7585161287CD00EF2638 /* DetailViewController.m in Sources */,
+				3FBC759D16128B8B00EF2638 /* KenBurnsView.m in Sources */,
+				3FBC75AE16129AC200EF2638 /* MotoSpeedConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +463,7 @@
 				GCC_PREFIX_HEADER = "MDF1 Week 1/MDF1 Week 1-Prefix.pch";
 				INFOPLIST_FILE = "MDF1 Week 1/MDF1 Week 1-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,6 +476,7 @@
 				GCC_PREFIX_HEADER = "MDF1 Week 1/MDF1 Week 1-Prefix.pch";
 				INFOPLIST_FILE = "MDF1 Week 1/MDF1 Week 1-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,6 +501,7 @@
 				3F3D0B201611428A00FC860A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
