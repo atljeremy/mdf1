@@ -5,6 +5,10 @@
 //  Created by Jeremy Fox on 9/24/12.
 //  Copyright (c) 2012 Jeremy Fox. All rights reserved.
 //
+//  **********************************************************
+//  Please Not: All photos and bike info were borrowed from
+//  http://www.sub5zero.com/top-20-fastest-street-bikes-world/
+//  **********************************************************
 
 #import "MotoSpeedMainCell.h"
 #import "MotoSpeedConstants.h"
@@ -28,7 +32,9 @@
 
 - (void)configureCellWithBikeObject:(NSDictionary*)bikeObject {
     
-    
+    /**
+     * Configuring the cells properties using passed in bikeObject
+     */
     self.cellTitleLabel.text = [bikeObject objectForKey:kBikeTitleKey];
     self.cellSubtitleLabel.text = [bikeObject objectForKey:kBikeSubtitleKey];
     self.cellImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@.jpeg", [bikeObject objectForKey:kBikeImageKey]]];

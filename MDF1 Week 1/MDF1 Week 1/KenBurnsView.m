@@ -163,9 +163,6 @@
     UIImage* image = [self.imagesArray objectAtIndex:[num intValue]];
     UIImageView *imageView;
     
-    float resizeRatio   = -0.5;
-    float widthDiff     = -0.5;
-    float heightDiff    = -0.5;
     float originX       = -0.5;
     float originY       = -0.5;
     float zoomInX       = -0.5;
@@ -174,62 +171,6 @@
     float moveY         = -0.5;
     float frameWidth    = isLandscape? self.frame.size.width : self.frame.size.height;
     float frameHeight   = isLandscape? self.frame.size.height : self.frame.size.width;
-    
-    // Widder than screen
-    if (image.size.width > frameWidth)
-    {
-        widthDiff  = image.size.width - frameWidth;
-        
-        // Higher than screen
-        if (image.size.height > frameHeight)
-        {
-            heightDiff = image.size.height - frameHeight;
-            
-            if (widthDiff > heightDiff)
-                resizeRatio = frameHeight / image.size.height;
-            else
-                resizeRatio = frameWidth / image.size.width;
-            
-            // No higher than screen
-        }
-        else
-        {
-            heightDiff = frameHeight - image.size.height;
-            
-            if (widthDiff > heightDiff)
-                resizeRatio = frameWidth / image.size.width;
-            else
-                resizeRatio = self.bounds.size.height / image.size.height;
-        }
-        
-        // No widder than screen
-    }
-    else
-    {
-        widthDiff  = frameWidth - image.size.width;
-        
-        // Higher than screen
-        if (image.size.height > frameHeight)
-        {
-            heightDiff = image.size.height - frameHeight;
-            
-            if (widthDiff > heightDiff)
-                resizeRatio = image.size.height / frameHeight;
-            else
-                resizeRatio = frameWidth / image.size.width;
-            
-            // No higher than screen
-        }
-        else
-        {
-            heightDiff = frameHeight - image.size.height;
-            
-            if (widthDiff > heightDiff)
-                resizeRatio = frameWidth / image.size.width;
-            else
-                resizeRatio = frameHeight / image.size.height;
-        }
-    }
     
     // Resize the image.
     float optimusWidth  = (image.size.width) * enlargeRatio;
