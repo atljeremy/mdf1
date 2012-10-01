@@ -1,0 +1,125 @@
+{
+    "total_records":20,
+    "bikes":[
+        {
+            "bike_title":"Ducati Streetfighter S",
+            "bike_subtitle":"1099cc twin",
+            "bike_image":"ducatistreetfighters",
+            "bike_detail":"If you had to pick just one machine that captures the essence of the streetbike movement, you can’t do much better than Ducati’s Streetfighter S. With a booming 1099cc twin and naked GP racer looks, this 155hp brawler gets up and goes, which is no surprise considering it only weighs 368 lb. dry.",
+        },
+        {
+            "bike_title":"Honda CB1000R",
+            "bike_subtitle":"998cc inline-four",
+            "bike_image":"hondacb1000r",
+            "bike_detail":"Although Honda arguably invented the streetbike segment with the 1969 CB750K0, it has spent much of recent history on the sidelines. That changed this year with the introduction of the CB1000R, a naked all-rounder powered by a 998cc inline-four. It might pack “only” 124hp, but thanks to an innovative gravity die-cast aluminum frame, this hot rod Honda is light enough to go, stop and corner with some real superstars.",
+        },
+        {
+            "bike_title":"MV Agusta Brutale 1090RR",
+            "bike_subtitle":"1078cc 16-valve four",
+            "bike_image":"mvagustabrutale1090rr",
+            "bike_detail":"Like Ducati, MV Agusta is an Italian company with a rich competition history. Also like Duc, it produces an over-a-liter street beast called the Brutale 1090RR. And brutal it is, with a 1078cc 16-valve four putting down 144hp through a slipper clutch and a top speed of 164.5 mph. All that performance and gorgeous looks? Somebody pinch us.",
+        },
+        {
+            "bike_title":"Ducati Diavel Carbon",
+            "bike_subtitle":"1198cc twin",
+            "bike_image":"ducatidiavelcarbon",
+            "bike_detail":"Want to be able to bring the horizon to you with a twist of the wrist? The Ducati Diavel Carbon might be the bike for the job. It’s a bit chubby at 456 lb., but with 162hp coming from an 1198cc twin that’s just as happy loafing around town as it is zinging up to its 9,500 rpm power peak, that’s kind of a moot point, isn’t it? Plus the looks are pure evil.",
+        },
+        {
+            "bike_title":"Suzuki Bandit GSF1200",
+            "bike_subtitle":"1157cc",
+            "bike_image":"suzukisgsf1200bandit",
+            "bike_detail":"While most of the ink and pixels devoted to Suzuki sportbikes are sucked up by the corner-munching GSX-R (“Gixxer” to its friends) range and the speed king Hayabusa, the Big S also makes a big-bore urban pugilist called the Bandit GSF1200. As the name suggests, the powerplant (a twin-cam four-banger) measures 1157cc and features air cooling. Imports to the U.S. ceased after 2005, so you’ll have to look to the used market if you want to saddle up on a big block Bandit.",
+        },
+        {
+            "bike_title":"Vyrus 985",
+            "bike_subtitle":"999cc Ducati twin",
+            "bike_image":"vyrus985",
+            "bike_detail":"Italy is not only home to multiple full-fledged motorcycle manufacturers, but also to many small boutique builders. One of these is Vyrus, and its 985 combines a radical hub-steering system with a 155hp 999cc Ducati twin to create a rare, distinctive thoroughbred. A thoroughbred that hits 181 mph at full gallop. Porco Dio…",
+        },
+        {
+            "bike_title":"NCR Macchia Nera",
+            "bike_subtitle":"998cc Ducati twin",
+            "bike_image":"ncrmacchianera",
+            "bike_detail":"There are naked bikes, and then there are naked bikes. The Macchia Nera (Italian for “black spot”), produced by tiny NCR, falls into the latter category. The 998cc Ducati twin making 185hp isn’t the big news; no, that honor goes to the Macchia Nera’s dry weight of just 297 lb. Only a handful have been built, which is probably for the best (unless you’re awaiting an organ transplant).",
+        },
+        {
+            "bike_title":"Yamaha FZ1",
+            "bike_subtitle":"998cc inline-four",
+            "bike_image":"yamahafz1",
+            "bike_detail":"If four valves per cylinder are good, five are better, right? Clearly that was Yamaha’s line of thinking when it designed the 998cc inline-four that propels the FZ1. Yamaha readily admits that this engine is nearly identical to the one in the YZF-R1, though 150hp from a naked bike with a more upright riding position makes for what is in many ways a more visceral riding experience.",
+        },
+        {
+            "bike_title":"Moto Guzzi Griso 1200 8V",
+            "bike_subtitle":"1151cc V-twin",
+            "bike_image":"motoguzzigriso12008v",
+            "bike_detail":"Moto Guzzi might not be as widely known as Ducati or even MV Agusta, but its heritage is just as deep and proud. One of the current models that best embodies the Moto Guzzi philosophy is the Griso 1200 8V, with a longitudinally-mounted 1151cc V-twin, shaft drive and muscular styling. That engine doesn’t like to rev sky high, but you won’t care when the scenery is blasting past.",
+        },
+        {
+            "bike_title":"Triumph Speed Triple",
+            "bike_subtitle":"1050cc",
+            "bike_image":"triumphspeedtriple",
+            "bike_detail":"Triumph is an iconic name in the motorcycle world (and has quite a following in the vintage sports car world), and with good reason: It has a long (though not uninterrupted) history of building well-rounded, no-nonsense performance motorcycles. One bike that’s keeping that legacy is the Speed Triple. As the name suggests, it has a three-cylinder engine (1050cc) producing 133hp, and the all-business engineering and aesthetics give it an honest charm not every bike can match.",
+        },
+        {
+            "bike_title":"Bimota DB6 R",
+            "bike_subtitle":"1079cc twin",
+            "bike_image":"bimotadb6r",
+            "bike_detail":"Bimota is another one of Italy’s small independent bike builders that uses the big guys’ engines. In the case of the DB6 R, the engine of choice is Ducati’s 1079cc twin. And while it shares its basic shape with the DB6 Delirio, it’s 15.5 lb. lighter, so you can cover ground at an even more amazing rate.",
+        },
+        {
+            "bike_title":"Ghezzi-Brian Fionda",
+            "bike_subtitle":"1064cc",
+            "bike_image":"fionda1",
+            "bike_detail":"When the name of a bike translates to “kids catapult,” you know it’s probably the most fun you can have with pants on. That’s the case with the Fionda, the shapely street fighter from Ghezzi-Brian, another small Italian firm. The longitudinal Moto Guzzi V-twin displaces 1064cc and produces 104hp. That’s enough to propel the Fionda to 149 mph, which is just fast enough to ensure that motorcycle nerds won’t have time to stare longingly as you blast past.",
+        },
+        {
+            "bike_title":"Norton Commando 961SE",
+            "bike_subtitle":"961cc",
+            "bike_image":"norton961commando",
+            "bike_detail":"It’s easy to argue that the modern streetbike is descended from the “café racers” that became so popular in the 1960s. Bearing that in mind, how cool would it be to own a brand new café racer with a full warranty and is modeled after one of the best known original café racers? Well that’s exactly what you’ll get with the Norton Commando 961SE. While it retains much of the character of an original Commando, there are plenty of modern touches like carbon fiber wheels and EFI for the 961cc, 80hp air-cooled twin. The best of both worlds, if you will.",
+        },
+        {
+            "bike_title":"Ducati Monster 1100 EVO",
+            "bike_subtitle":"1078cc air-cooled twin",
+            "bike_image":"ducatimonster1100evo",
+            "bike_detail":"While some might consider the Ducati Monster to be inferior to its Streetfighter stablemates due to its taller stance and less powerful engine, it’s still a serious piece of hardware. And in top drawer 1100 EVO trim – with a 100hp 1078cc air-cooled twin – it’s even more serious. Who says you need to hug the ground to leave the competition in your dust?",
+        },
+        {
+            "bike_title":"Kawasaki Z1000",
+            "bike_subtitle":"1043cc twin-cam four",
+            "bike_image":"kawasakiz1000",
+            "bike_detail":"Though it has roots dating back to the Z1 of the early ’70s, the current Kawasaki Z1000 is a thoroughly modern crotch rocket. The 1043cc twin-cam four puts out 127hp and buckets of torque. It might lack some of the Ninja’s street cred and fall short in some objective categories, but it gives up almost nothing in terms of thrills.",
+        },
+        {
+            "bike_title":"Aprilia Tuono 1000 R Factory",
+            "bike_subtitle":"998cc BRP-Rotax V-twin",
+            "bike_image":"apriliatuono1000r",
+            "bike_detail":"The Aprilia Tuono 1000 R Factory is heavily based on the company’s RSV1000R superbike. It shares that bike’s 998cc BRP-Rotax V-twin (producing 139hp), though it does away with the fairing and limits the top speed to “just” 155 mph. But it certainly won’t take you long to get to that top speed, thanks to the Factory model’s forged aluminum wheels and oodles of carbon fiber parts.",
+        },
+        {
+            "bike_title":"Benelli Tornado Naked TRE R160",
+            "bike_subtitle":"1131cc triple",
+            "bike_image":"benellitntr160",
+            "bike_detail":"Benelli’s history dates back 100 years and, to prove the now-Chinese-owned company has no intention of slowing down, produces the Tornado Naked TRE (TNT for short) R160. The 1131cc triple puts out almost 160hp. With that kind of power, we seriously doubt Montgomery-Ward’s lawyers would let them sell this monster…assuming, of course, Montgomery-Ward was still around and still selling Benellis.",
+        },
+        {
+            "bike_title":"Buell Lightning XB12S",
+            "bike_subtitle":"1203cc V-twin",
+            "bike_image":"buelllightningxb12Ssb",
+            "bike_detail":"In 1983, former Harley-Davidson engineer Erik Buell set out to build an American superbike, and his first eponymous company built many of those. But it also built some pretty formidable street fighters, chief among them arguably being the Lightning XB12S. The Harley-based 1203cc V-twin provides an unmistakably American soundtrack, while Buell design innovations like floating perimeter front brake discs and a chassis that doubles as the fuel tank provide great conversation starters at the roadside café. Just warn your new friends to not push too hard trying to keep up.",
+        },
+        {
+            "bike_title":"Honda CBX1000",
+            "bike_subtitle":"1047cc",
+            "bike_image":"hondacbx1000",
+            "bike_detail":"Having dominated grand prix road racing in the ‘60s with a straight-six powered racer, Honda brought the configuration to the street in 1978 with the CBX1000. Featuring double-overhead camshafts, four valves per cylinder and air cooling, the 1047cc engine was rated at 105hp and propelled the CBX1000 to 11-second quarter mile times at over 110 mph. Those numbers were off-the-scale then, and are still respectable today.",
+        },
+        {
+            "bike_title":"FGR Midalu 2500 V6",
+            "bike_subtitle":"2500cc",
+            "bike_image":"motofgrmidalu2500",
+            "bike_detail":"Finally, lest you assume six-pot streetbikes are extinct, Czech startup FGR has a very limited production retort that says they are alive…and then some. Dubbed the Midalu 2500 V6, it does indeed house a 2500cc V6 (as big as some passenger car sixes) producing a how-is-this-legal-and-nuclear-fuel-isn’t 240hp. If you aspire to arrive at the Pearly Gates in a charred, Ziploc bag-size heap, look no further.",
+        },
+    ]
+}
