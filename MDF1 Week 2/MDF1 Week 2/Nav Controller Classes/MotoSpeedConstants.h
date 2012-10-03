@@ -13,19 +13,40 @@
 #import <Foundation/Foundation.h>
 
 // MotoSpeedMainCell Constants
-#define kMainCellIdentifier @"MainCell"
-#define kMainCellHeight     60
+#define kMainCellIdentifier  @"MainCell"
+#define kMainCellHeight      60
 
 // JSON Object Key Constants
-#define kBikesObjectKey     @"bikes"
-#define kTotalRecordsKey    @"total_records"
-#define kBikeTitleKey       @"bike_title"
-#define kBikeSubtitleKey    @"bike_subtitle"
-#define kBikeImageKey       @"bike_image"
-#define kBikeDetailKey      @"bike_detail"
+#define kBikesObjectKey      @"bikes"
+#define kTotalRecordsKey     @"total_records"
+#define kBikeTitleKey        @"bike_title"
+#define kBikeSubtitleKey     @"bike_subtitle"
+#define kBikeImageKey        @"bike_image"
+#define kBikeDetailKey       @"bike_detail"
 
 // DetailViewController Constants
-#define kDetailVCNib        @"DetailViewController"
+#define kDetailVCNib         @"DetailViewController"
+
+// SettingsViewController Constants
+#define kCellIdentifier      @"SettingsCell"
+
+// ContactInfoViewController Constants
+#define kContactInfoVCNib    @"ContactInfoViewController"
+
+// MyBikesViewController Constants
+#define kMyBikesVCNib        @"MyBikesViewController"
+
+// SocialNetworksViewController Constants
+#define kSocialNetworksVCNib @"SocialNetworksViewController"
+
+// AboutViewController Constants
+#define kAboutVCNib          @"AboutViewController"
+
+// PrivacyPolicyViewController Constants
+#define kPrivacyVCNib        @"PrivacyPolicyViewController"
+
+// TermsViewController Constants
+#define kTermsVCNib          @"TermsViewController"
 
 @interface MotoSpeedConstants : NSObject
 

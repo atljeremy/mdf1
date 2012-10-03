@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
-#import "SecondViewController.h"
+#import "SettingsViewController.h"
 #import "CustomViewController.h"
 
 @implementation AppDelegate
@@ -20,7 +20,7 @@
     
     UIViewController*     mainVC          = [[MainViewController alloc] initWithNibName:@"MainViewController"
                                                                                  bundle:nil];
-    UIViewController*     viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController"
+    UIViewController*     viewController2 = [[SettingsViewController alloc] initWithNibName:@"SettingsViewController"
                                                                                    bundle:nil];
     CustomViewController* customVC        = [[CustomViewController alloc] initWithNibName:@"CustomViewController"
                                                                                    bundle:nil];
