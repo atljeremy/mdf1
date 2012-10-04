@@ -11,4 +11,8 @@
 
 @interface SocialNetworksViewController : MotoSpeedViewController
 
+@property (weak, nonatomic) IBOutlet UISwitch *twitterSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *facebookSwitch;
+- (IBAction)twitterSwitchValueChanged:(id)sender;
+- (IBAction)facebookSwitchValueChanged:(id)sender;
 @end
