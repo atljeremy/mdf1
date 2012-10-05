@@ -10,6 +10,12 @@
 #import <MapKit/MapKit.h>
 
 @interface CustomViewController : UIViewController <MKMapViewDelegate>
+
+/**
+ * Map view used to display static annotations that are to represent upcoming Meetup events.
+ * I wanted to add a right accessory view callout and show additional details 
+ * for each event when clicked but ran out of time. :(
+ */
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end

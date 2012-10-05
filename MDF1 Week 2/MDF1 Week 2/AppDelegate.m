@@ -18,18 +18,18 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    UIViewController*     mainVC          = [[MainViewController alloc] initWithNibName:@"MainViewController"
+    UIViewController*     mainVC     = [[MainViewController alloc] initWithNibName:@"MainViewController"
                                                                                  bundle:nil];
-    UIViewController*     viewController2 = [[SettingsViewController alloc] initWithNibName:@"SettingsViewController"
+    UIViewController*     settingsVC = [[SettingsViewController alloc] initWithNibName:@"SettingsViewController"
                                                                                    bundle:nil];
-    CustomViewController* customVC        = [[CustomViewController alloc] initWithNibName:@"CustomViewController"
+    CustomViewController* mapVC      = [[CustomViewController alloc] initWithNibName:@"CustomViewController"
                                                                                    bundle:nil];
     
     UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:mainVC];
     navController.navigationBar.tintColor = [UIColor grayColor];
     
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[navController, viewController2, customVC];
+    self.tabBarController.viewControllers = @[navController, settingsVC, mapVC];
     
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];

@@ -10,5 +10,8 @@
 
 @interface SettingsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+/**
+ * Table view used to list all of the settings sections & rows.
+ */
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end

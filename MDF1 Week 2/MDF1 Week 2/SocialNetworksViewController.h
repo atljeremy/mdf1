@@ -11,8 +11,15 @@
 
 @interface SocialNetworksViewController : MotoSpeedViewController
 
+/**
+ * IBOutlets to each switch so we can determine what the value was changed from/to.
+ */
 @property (weak, nonatomic) IBOutlet UISwitch *twitterSwitch;
 @property (weak, nonatomic) IBOutlet UISwitch *facebookSwitch;
+
+/**
+ * IBActions called when the value of each swtich is changed.
+ */
 - (IBAction)twitterSwitchValueChanged:(id)sender;
 - (IBAction)facebookSwitchValueChanged:(id)sender;
 @end

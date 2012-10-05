@@ -33,7 +33,9 @@
     
     self.mapView.delegate = self;
     
-    //create annotations and add to the array
+    /**
+     * Create some MotoSpeedAnnotations and add to the locations array to be displayed on the map
+     */
     NSMutableArray* locations = [NSMutableArray array];
 	CLLocationCoordinate2D annotationCenter;
 	MotoSpeedAnnotation *annotation;
@@ -107,12 +109,22 @@
 
 #pragma mark - Custom Methods
 
+/**
+ * Custom method that is called in viewDidLoad and passed an array of annotaions 
+ * objects, that will be viewed on the map, and the map it self. It then calls the
+ * calculateRegion: custom method which does some math on the annotations to determine
+ * the appropriate visible region to zoom the map to inorder to see all of the annotations
+ * but not so far out that they are all bunched together or so far in that some are not visible.
+ */
 - (void)zoomToFitRegionForAnnotations:(NSArray*)annotations inMapView:(MKMapView*)mapView {
     
     MKCoordinateRegion region = [self calculateRegion:annotations];
     [mapView setRegion:[mapView regionThatFits:region] animated:YES];
 }
 
+/**
+ * This is a custom method used to calculate the appropriate region to display given array of annotations
+ */
 - (MKCoordinateRegion)calculateRegion:(NSArray *)annotations {
     if ([annotations count] == 0) return MKCoordinateRegionMake(CLLocationCoordinate2DMake(0, 0), MKCoordinateSpanMake(0, 0));
     
