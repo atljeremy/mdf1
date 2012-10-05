@@ -22,7 +22,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Meetup Map", @"Meetup Map");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.tabBarItem.image = [UIImage imageNamed:@"map-marker"];
     }
     return self;
 }
@@ -97,6 +97,8 @@
     } else {
         annoView.annotation = annotation;
     }
+    
+    annoView.image = [UIImage imageNamed:@"moto_map_pin"];
     
     annoView.canShowCallout = YES;
     

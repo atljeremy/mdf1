@@ -33,7 +33,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Settings", @"Settings");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
+        self.tabBarItem.image = [UIImage imageNamed:@"gear"];
         self.settingsMyInfo = [NSArray arrayWithObjects:@"Contact Info", @"My Bikes", nil];
         self.settingsSocial = [NSArray arrayWithObjects:@"Twitter", @"Facebook", nil];
         self.settingsAbout = [NSArray arrayWithObjects:@"About MotoSpeed", @"Privacy Policy", @"Terms of Use", nil];
