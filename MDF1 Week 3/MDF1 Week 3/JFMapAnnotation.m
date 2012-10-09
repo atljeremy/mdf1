@@ -12,16 +12,19 @@
 @synthesize coordinate;
 @synthesize title;
 @synthesize subtitle;
+@synthesize phone;
 
 -(id)initWithCoordinate:(CLLocationCoordinate2D)coord
               withTitle:(NSString *)tl
-           withSubtitle:(NSString *)stl {
+           withSubtitle:(NSString *)stl
+              withPhone:(NSString *)phn{
     
     if(self = [super init])
 	{
 		coordinate = coord;
 		title      = tl;
 		subtitle   = stl;
+        phone      = phn;
 	}
 	return self;
 }

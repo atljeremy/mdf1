@@ -7,15 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import "JFMapAnnotation.h"
 #import "JFMapManager.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <MKMapViewDelegate>
 
 @property (nonatomic, weak) JFMapAnnotation*    location;
 @property (nonatomic, weak) JFMapManager*       mapManager;
 @property (nonatomic, weak) IBOutlet UILabel*   locationTitle;
 @property (nonatomic, weak) IBOutlet UILabel*   locationSubTitle;
+@property (weak, nonatomic) IBOutlet UILabel*   locationPhone;
+@property (weak, nonatomic) IBOutlet UILabel*   locationCoords;
 @property (nonatomic, weak) IBOutlet MKMapView* mapView;
 
 @end

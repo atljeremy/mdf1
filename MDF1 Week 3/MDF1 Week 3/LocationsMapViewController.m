@@ -20,7 +20,7 @@
         self.title = NSLocalizedString(@"Locations Map", @"Locations Map");
         self.tabBarItem.image = [UIImage imageNamed:@"map-marker"];
         self.mapManager = [JFMapManager sharedInstance];
-        self.locations  = [self.mapManager getLocations];
+        self.locations  = self.mapManager.locations;
     }
     return self;
 }
@@ -30,11 +30,16 @@
     [super viewDidLoad];
     
     self.mapView.delegate = self;
-    [self.mapView addAnnotations:self.locations];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
     
+    [self.mapView removeAnnotations:self.mapView.annotations];
+    [self.mapView addAnnotations:self.locations];
     [self.mapManager zoomToFitRegionForAnnotations:self.locations
                                          inMapView:self.mapView];
-
 }
 
 - (void)didReceiveMemoryWarning

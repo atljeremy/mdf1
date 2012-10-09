@@ -23,9 +23,10 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Fox Photography", @"Fox Photography");
-        self.tabBarItem.image = [UIImage imageNamed:@"map-marker"];
+        self.tabBarItem.image = [UIImage imageNamed:@"list"];
+        self.tabBarItem.title = NSLocalizedString(@"Locations List", @"Locations List");
         self.mapManager = [JFMapManager sharedInstance];
-        self.locations = [self.mapManager getLocations];
+        self.locations = self.mapManager.locations;
     }
     return self;
 }
@@ -35,6 +36,17 @@
     [super viewDidLoad];
 	
     [self.tableView registerNib:[UINib nibWithNibName:kMainCellNib bundle:nil] forCellReuseIdentifier:kMainCellIdentifier];
+    
+    /**
+     * Add an "edit" button to the top right bar button item position in the nav bar
+     * This will be used to initiate edit mode on the table view to allow deleting of rows
+     */
+    UIBarButtonItem* edit = [[UIBarButtonItem alloc] initWithTitle:@"edit"
+                                                             style:UIBarButtonSystemItemEdit
+                                                            target:self
+                                                            action:@selector(editList)];
+    
+    self.navigationItem.rightBarButtonItem = edit;
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,15 +63,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     JFMapAnnotation* currentLocation = [self.locations objectAtIndex:indexPath.row];
-    
-    /**
-     * Again, there is absolutely no reason to do the old fashioned...
-     * if (cell == nil)
-     *     cell = [UITableViewCell alloc] init...];
-     *
-     * We are gauranteed to have a cell returned by simply calling...
-     * JFMainCell *cell = [tableView dequeueReusableCellWithIdentifier:kMainCellIdentifier];
-     */
+
     JFMainCell *cell = [tableView dequeueReusableCellWithIdentifier:kMainCellIdentifier];
     
     [cell configureCellWithLocation:currentLocation];

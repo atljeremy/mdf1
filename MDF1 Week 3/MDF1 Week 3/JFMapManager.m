@@ -14,7 +14,7 @@
 
 - (id)init {
     if (self = [super init]) {
-        _locations = [NSMutableArray array];
+        _locations = [self createLocations];
     }
     return self;
 }
@@ -24,7 +24,7 @@
     MKCoordinateRegion region;
     if (annotation) {
         region = MKCoordinateRegionMake(CLLocationCoordinate2DMake(annotation.coordinate.latitude, annotation.coordinate.longitude),
-                                        MKCoordinateSpanMake(0.002, 0.002));
+                                        MKCoordinateSpanMake(0.005, 0.005));
     }
 
     [mapView setRegion:[mapView regionThatFits:region] animated:NO];
@@ -75,46 +75,92 @@
     return region;
 }
 
-- (NSMutableArray*)getLocations {
+- (NSMutableArray*)createLocations {
     /**
      * Create some JFMapAnnotations and add to the locations array to be displayed on the map
      */
+    _locations = [NSMutableArray array];
 	CLLocationCoordinate2D annotationCenter;
 	JFMapAnnotation *annotation;
 	
 	annotationCenter.latitude = 33.7489;
 	annotationCenter.longitude =  -84.3881;
 	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
-                                                   withTitle:@"Location: Atlanta, GA"
-                                                withSubtitle:@"Meetup Date: 12/20/2012"];
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Atlanta, GA"
+                                                   withPhone:@"(123) 123-1234"];
 	[_locations addObject:annotation];
 	
 	annotationCenter.latitude = 34.0753;
 	annotationCenter.longitude =  -84.2942;
 	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
-                                                   withTitle:@"Location: Alparetta, GA"
-                                                withSubtitle:@"Meetup Date: 01/12/2013"];
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Alpharetta, GA"
+                                                   withPhone:@"(321) 321-0321"];
 	[_locations addObject:annotation];
 	
 	annotationCenter.latitude = 34.0231;
 	annotationCenter.longitude =  -84.3617;
 	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
-                                                   withTitle:@"Location: Roswell, GA"
-                                                withSubtitle:@"Meetup Date: 12/02/2012"];
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Roswell, GA"
+                                                   withPhone:@"(012) 345-6789"];
 	[_locations addObject:annotation];
 	
 	annotationCenter.latitude = 33.8583;
 	annotationCenter.longitude =  -84.0064;
 	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
-                                                   withTitle:@"Location: Snellville, GA"
-                                                withSubtitle:@"Meetup Date: 02/13/2013"];
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Snellville, GA"
+                                                   withPhone:@"(333) 333-2222"];
 	[_locations addObject:annotation];
     
     annotationCenter.latitude = 33.9608;
 	annotationCenter.longitude =  -83.3781;
 	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
-                                                   withTitle:@"Location: Athens, GA"
-                                                withSubtitle:@"Meetup Date: 02/15/2013"];
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Athens, GA"
+                                                   withPhone:@"(121) 121-1212"];
+	[_locations addObject:annotation];
+    
+    annotationCenter.latitude = 34.0289;
+	annotationCenter.longitude =  -84.1986;
+	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Johns Creek, GA"
+                                                   withPhone:@"(323) 323-3232"];
+	[_locations addObject:annotation];
+	
+	annotationCenter.latitude = 34.2072;
+	annotationCenter.longitude =  -84.1403;
+	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Cumming, GA"
+                                                   withPhone:@"(111) 222-3333"];
+	[_locations addObject:annotation];
+	
+	annotationCenter.latitude = 34.0031;
+	annotationCenter.longitude =  -84.1456;
+	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Duluth, GA"
+                                                   withPhone:@"(221) 221-2212"];
+	[_locations addObject:annotation];
+	
+	annotationCenter.latitude = 34.1169;
+	annotationCenter.longitude =  -83.9986;
+	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Buford, GA"
+                                                   withPhone:@"(555) 555-1234"];
+	[_locations addObject:annotation];
+    
+    annotationCenter.latitude = 33.9411;
+	annotationCenter.longitude =  -84.2136;
+	annotation = [[JFMapAnnotation alloc] initWithCoordinate:annotationCenter
+                                                   withTitle:@"Fox Photography"
+                                                withSubtitle:@"Location: Norcross, GA"
+                                                   withPhone:@"(444) 555-4444"];
 	[_locations addObject:annotation];
     
     return _locations;

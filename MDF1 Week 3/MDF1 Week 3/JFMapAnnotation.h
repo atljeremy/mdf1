@@ -11,12 +11,14 @@
 
 @interface JFMapAnnotation : NSObject <MKAnnotation>
 
-@property(nonatomic, readonly) CLLocationCoordinate2D coordinate;
-@property(nonatomic, strong) NSString *title;
-@property(nonatomic, strong) NSString *subtitle;
+@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
+@property (nonatomic, strong) NSString* title;
+@property (nonatomic, strong) NSString* subtitle;
+@property (nonatomic, strong) NSString* phone;
 
 -(id)initWithCoordinate:(CLLocationCoordinate2D)coord
               withTitle:(NSString *)tl
-           withSubtitle:(NSString *)stl;
+           withSubtitle:(NSString *)stl
+              withPhone:(NSString*)phn;
 
 @end

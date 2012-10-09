@@ -40,6 +40,8 @@
 		3F3C04FB1623C62F002A055A /* Detail-Fade@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04F71623C62F002A055A /* Detail-Fade@2x.png */; };
 		3F3C04FC1623C62F002A055A /* Drop-Shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04F81623C62F002A055A /* Drop-Shadow.png */; };
 		3F3C04FD1623C62F002A055A /* Drop-Shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04F91623C62F002A055A /* Drop-Shadow@2x.png */; };
+		3F6AC65D1624D5B500735F39 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6AC65B1624D5B400735F39 /* list.png */; };
+		3F6AC65E1624D5B500735F39 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6AC65C1624D5B400735F39 /* list@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		3F3C04F71623C62F002A055A /* Detail-Fade@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Detail-Fade@2x.png"; path = "images/Detail-Fade@2x.png"; sourceTree = "<group>"; };
 		3F3C04F81623C62F002A055A /* Drop-Shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drop-Shadow.png"; path = "images/Drop-Shadow.png"; sourceTree = "<group>"; };
 		3F3C04F91623C62F002A055A /* Drop-Shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drop-Shadow@2x.png"; path = "images/Drop-Shadow@2x.png"; sourceTree = "<group>"; };
+		3F6AC65B1624D5B400735F39 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = images/list.png; sourceTree = "<group>"; };
+		3F6AC65C1624D5B400735F39 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list@2x.png"; path = "images/list@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 		3F3C04A8162384DD002A055A /* images */ = {
 			isa = PBXGroup;
 			children = (
+				3F6AC65B1624D5B400735F39 /* list.png */,
+				3F6AC65C1624D5B400735F39 /* list@2x.png */,
 				3F3C04E31623B5B7002A055A /* Default-568h@2x.png */,
 				3F3C04E11623B5B5002A055A /* Default@2x.png */,
 				3F3C04DF1623B5B2002A055A /* Default.png */,
@@ -336,6 +342,8 @@
 				3F3C04FB1623C62F002A055A /* Detail-Fade@2x.png in Resources */,
 				3F3C04FC1623C62F002A055A /* Drop-Shadow.png in Resources */,
 				3F3C04FD1623C62F002A055A /* Drop-Shadow@2x.png in Resources */,
+				3F6AC65D1624D5B500735F39 /* list.png in Resources */,
+				3F6AC65E1624D5B500735F39 /* list@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +486,7 @@
 				3F3C04A716238441002A055A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

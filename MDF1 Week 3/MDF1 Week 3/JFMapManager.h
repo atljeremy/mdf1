@@ -26,9 +26,4 @@
 - (void)zoomToFitRegionForAnnotations:(NSArray*)annotations inMapView:(MKMapView*)mapView;
 - (MKCoordinateRegion)calculateRegion:(NSArray *)annotations;
 
-/**
- * Create/Get the locations array
- */
-- (NSMutableArray*)getLocations;
-
 @end
