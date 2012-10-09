@@ -10,6 +10,11 @@
 #import <MapKit/MapKit.h>
 #import "JFMapManager.h"
 
+/**
+ * LocationsMapViewController
+ *
+ * This is the class used to display all locations on a map
+ */
 @interface LocationsMapViewController : UIViewController <MKMapViewDelegate>
 
 @property (nonatomic, weak) IBOutlet MKMapView* mapView;

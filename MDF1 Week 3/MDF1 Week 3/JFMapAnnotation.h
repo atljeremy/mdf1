@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 
+/**
+ * JFMapAnnotation
+ *
+ * Custom MKAnnotation class that will be used throughout 
+ * the app for displaying annotations on a map
+ */
 @interface JFMapAnnotation : NSObject <MKAnnotation>
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;

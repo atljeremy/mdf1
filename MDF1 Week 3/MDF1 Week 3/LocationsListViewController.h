@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "JFMapManager.h"
 
+/**
+ * LocationsListViewController
+ *
+ * This is the class used to display a list of all locations
+ */
 @interface LocationsListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UITableView* tableView;

@@ -9,8 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "JFMapAnnotation.h"
 
+/**
+ * JFMainCell
+ *
+ * This is a custom UITableViewCell used to display in the LocationsListViewController
+ */
 @interface JFMainCell : UITableViewCell
 
+/**
+ * Custom helper method used to configure the objects 
+ * properties for each location object passed in
+ */
 - (void)configureCellWithLocation:(JFMapAnnotation*)location;
 
 @property (weak, nonatomic) IBOutlet UILabel *title;

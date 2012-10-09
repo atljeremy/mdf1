@@ -10,8 +10,17 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 
+/**
+ * JFMapManager
+ *
+ * This is a singleton class used to handle storing and keeping track 
+ * of "locations" and setting the viewable region for annotations
+ */
 @interface JFMapManager : NSObject
 
+/**
+ * The locations object that will keep both the list and map in sync
+ */
 @property (nonatomic, strong) NSMutableArray* locations;
 
 /**

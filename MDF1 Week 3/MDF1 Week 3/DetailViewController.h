@@ -11,6 +11,11 @@
 #import "JFMapAnnotation.h"
 #import "JFMapManager.h"
 
+/**
+ * DetailViewController
+ *
+ * This is the class used to display additional details for each location
+ */
 @interface DetailViewController : UIViewController <MKMapViewDelegate>
 
 @property (nonatomic, weak) JFMapAnnotation*    location;
