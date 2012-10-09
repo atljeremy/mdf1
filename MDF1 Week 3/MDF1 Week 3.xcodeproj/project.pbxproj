@@ -13,17 +13,33 @@
 		3F3C048216238441002A055A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C048016238441002A055A /* InfoPlist.strings */; };
 		3F3C048416238441002A055A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C048316238441002A055A /* main.m */; };
 		3F3C048816238441002A055A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C048716238441002A055A /* AppDelegate.m */; };
-		3F3C048A16238441002A055A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C048916238441002A055A /* Default.png */; };
-		3F3C048C16238441002A055A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C048B16238441002A055A /* Default@2x.png */; };
-		3F3C048E16238441002A055A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C048D16238441002A055A /* Default-568h@2x.png */; };
 		3F3C049116238441002A055A /* LocationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C049016238441002A055A /* LocationsListViewController.m */; };
-		3F3C049316238441002A055A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C049216238441002A055A /* first.png */; };
-		3F3C049516238441002A055A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C049416238441002A055A /* first@2x.png */; };
 		3F3C049816238441002A055A /* LocationsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C049716238441002A055A /* LocationsMapViewController.m */; };
-		3F3C049A16238441002A055A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C049916238441002A055A /* second.png */; };
-		3F3C049C16238441002A055A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C049B16238441002A055A /* second@2x.png */; };
 		3F3C049F16238441002A055A /* LocationsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C049D16238441002A055A /* LocationsListViewController.xib */; };
 		3F3C04A216238441002A055A /* LocationsMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04A016238441002A055A /* LocationsMapViewController.xib */; };
+		3F3C04AF16238701002A055A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C04AE16238701002A055A /* MapKit.framework */; };
+		3F3C04B116238708002A055A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C04B016238707002A055A /* CoreLocation.framework */; };
+		3F3C04B516238768002A055A /* JFMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C04B416238768002A055A /* JFMapManager.m */; };
+		3F3C04D216238A08002A055A /* JFMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C04D116238A08002A055A /* JFMapAnnotation.m */; };
+		3F3C04D61623B448002A055A /* JFMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C04D51623B448002A055A /* JFMainCell.m */; };
+		3F3C04D81623B46D002A055A /* JFMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04D71623B46D002A055A /* JFMainCell.xib */; };
+		3F3C04DA1623B566002A055A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04D91623B566002A055A /* icon.png */; };
+		3F3C04DC1623B568002A055A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04DB1623B568002A055A /* icon@2x.png */; };
+		3F3C04E01623B5B2002A055A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04DF1623B5B2002A055A /* Default.png */; };
+		3F3C04E21623B5B5002A055A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04E11623B5B5002A055A /* Default@2x.png */; };
+		3F3C04E41623B5B7002A055A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04E31623B5B7002A055A /* Default-568h@2x.png */; };
+		3F3C04E71623BB64002A055A /* map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04E51623BB64002A055A /* map_pin.png */; };
+		3F3C04E81623BB64002A055A /* map_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04E61623BB64002A055A /* map_pin@2x.png */; };
+		3F3C04ED1623C23B002A055A /* list_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04E91623C23B002A055A /* list_default.png */; };
+		3F3C04EE1623C23B002A055A /* list_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04EA1623C23B002A055A /* list_default@2x.png */; };
+		3F3C04EF1623C23B002A055A /* map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04EB1623C23B002A055A /* map-marker.png */; };
+		3F3C04F01623C23B002A055A /* map-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04EC1623C23B002A055A /* map-marker@2x.png */; };
+		3F3C04F41623C579002A055A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C04F21623C579002A055A /* DetailViewController.m */; };
+		3F3C04F51623C579002A055A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04F31623C579002A055A /* DetailViewController.xib */; };
+		3F3C04FA1623C62F002A055A /* Detail-Fade.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04F61623C62F002A055A /* Detail-Fade.png */; };
+		3F3C04FB1623C62F002A055A /* Detail-Fade@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04F71623C62F002A055A /* Detail-Fade@2x.png */; };
+		3F3C04FC1623C62F002A055A /* Drop-Shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04F81623C62F002A055A /* Drop-Shadow.png */; };
+		3F3C04FD1623C62F002A055A /* Drop-Shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C04F91623C62F002A055A /* Drop-Shadow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,19 +53,39 @@
 		3F3C048516238441002A055A /* MDF1 Week 3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDF1 Week 3-Prefix.pch"; sourceTree = "<group>"; };
 		3F3C048616238441002A055A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F3C048716238441002A055A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F3C048916238441002A055A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		3F3C048B16238441002A055A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3F3C048D16238441002A055A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3F3C048F16238441002A055A /* LocationsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationsListViewController.h; sourceTree = "<group>"; };
 		3F3C049016238441002A055A /* LocationsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationsListViewController.m; sourceTree = "<group>"; };
-		3F3C049216238441002A055A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		3F3C049416238441002A055A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		3F3C049616238441002A055A /* LocationsMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationsMapViewController.h; sourceTree = "<group>"; };
 		3F3C049716238441002A055A /* LocationsMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationsMapViewController.m; sourceTree = "<group>"; };
-		3F3C049916238441002A055A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		3F3C049B16238441002A055A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		3F3C049E16238441002A055A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LocationsListViewController.xib; sourceTree = "<group>"; };
 		3F3C04A116238441002A055A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LocationsMapViewController.xib; sourceTree = "<group>"; };
+		3F3C04AE16238701002A055A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F3C04B016238707002A055A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F3C04B316238768002A055A /* JFMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMapManager.h; sourceTree = "<group>"; };
+		3F3C04B416238768002A055A /* JFMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMapManager.m; sourceTree = "<group>"; };
+		3F3C04D016238A08002A055A /* JFMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMapAnnotation.h; sourceTree = "<group>"; };
+		3F3C04D116238A08002A055A /* JFMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMapAnnotation.m; sourceTree = "<group>"; };
+		3F3C04D41623B448002A055A /* JFMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMainCell.h; sourceTree = "<group>"; };
+		3F3C04D51623B448002A055A /* JFMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMainCell.m; sourceTree = "<group>"; };
+		3F3C04D71623B46D002A055A /* JFMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMainCell.xib; sourceTree = "<group>"; };
+		3F3C04D91623B566002A055A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		3F3C04DB1623B568002A055A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		3F3C04DF1623B5B2002A055A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		3F3C04E11623B5B5002A055A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		3F3C04E31623B5B7002A055A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F3C04E51623BB64002A055A /* map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_pin.png; path = images/map_pin.png; sourceTree = "<group>"; };
+		3F3C04E61623BB64002A055A /* map_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map_pin@2x.png"; path = "images/map_pin@2x.png"; sourceTree = "<group>"; };
+		3F3C04E91623C23B002A055A /* list_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_default.png; path = images/list_default.png; sourceTree = "<group>"; };
+		3F3C04EA1623C23B002A055A /* list_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list_default@2x.png"; path = "images/list_default@2x.png"; sourceTree = "<group>"; };
+		3F3C04EB1623C23B002A055A /* map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-marker.png"; path = "images/map-marker.png"; sourceTree = "<group>"; };
+		3F3C04EC1623C23B002A055A /* map-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-marker@2x.png"; path = "images/map-marker@2x.png"; sourceTree = "<group>"; };
+		3F3C04F11623C579002A055A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3F3C04F21623C579002A055A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3F3C04F31623C579002A055A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		3F3C04F61623C62F002A055A /* Detail-Fade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Detail-Fade.png"; path = "images/Detail-Fade.png"; sourceTree = "<group>"; };
+		3F3C04F71623C62F002A055A /* Detail-Fade@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Detail-Fade@2x.png"; path = "images/Detail-Fade@2x.png"; sourceTree = "<group>"; };
+		3F3C04F81623C62F002A055A /* Drop-Shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drop-Shadow.png"; path = "images/Drop-Shadow.png"; sourceTree = "<group>"; };
+		3F3C04F91623C62F002A055A /* Drop-Shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drop-Shadow@2x.png"; path = "images/Drop-Shadow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3C04B116238708002A055A /* CoreLocation.framework in Frameworks */,
+				3F3C04AF16238701002A055A /* MapKit.framework in Frameworks */,
 				3F3C047816238441002A055A /* UIKit.framework in Frameworks */,
 				3F3C047A16238441002A055A /* Foundation.framework in Frameworks */,
 				3F3C047C16238441002A055A /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +107,8 @@
 		3F3C046816238441002A055A = {
 			isa = PBXGroup;
 			children = (
+				3F3C04B016238707002A055A /* CoreLocation.framework */,
+				3F3C04AE16238701002A055A /* MapKit.framework */,
 				3F3C047D16238441002A055A /* MDF1 Week 3 */,
 				3F3C047616238441002A055A /* Frameworks */,
 				3F3C047416238441002A055A /* Products */,
@@ -110,9 +150,6 @@
 				3F3C048016238441002A055A /* InfoPlist.strings */,
 				3F3C048316238441002A055A /* main.m */,
 				3F3C048516238441002A055A /* MDF1 Week 3-Prefix.pch */,
-				3F3C048916238441002A055A /* Default.png */,
-				3F3C048B16238441002A055A /* Default@2x.png */,
-				3F3C048D16238441002A055A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,10 +157,21 @@
 		3F3C04A8162384DD002A055A /* images */ = {
 			isa = PBXGroup;
 			children = (
-				3F3C049216238441002A055A /* first.png */,
-				3F3C049416238441002A055A /* first@2x.png */,
-				3F3C049916238441002A055A /* second.png */,
-				3F3C049B16238441002A055A /* second@2x.png */,
+				3F3C04E31623B5B7002A055A /* Default-568h@2x.png */,
+				3F3C04E11623B5B5002A055A /* Default@2x.png */,
+				3F3C04DF1623B5B2002A055A /* Default.png */,
+				3F3C04DB1623B568002A055A /* icon@2x.png */,
+				3F3C04D91623B566002A055A /* icon.png */,
+				3F3C04F61623C62F002A055A /* Detail-Fade.png */,
+				3F3C04F71623C62F002A055A /* Detail-Fade@2x.png */,
+				3F3C04F81623C62F002A055A /* Drop-Shadow.png */,
+				3F3C04F91623C62F002A055A /* Drop-Shadow@2x.png */,
+				3F3C04E91623C23B002A055A /* list_default.png */,
+				3F3C04EA1623C23B002A055A /* list_default@2x.png */,
+				3F3C04EB1623C23B002A055A /* map-marker.png */,
+				3F3C04EC1623C23B002A055A /* map-marker@2x.png */,
+				3F3C04E51623BB64002A055A /* map_pin.png */,
+				3F3C04E61623BB64002A055A /* map_pin@2x.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -140,19 +188,21 @@
 		3F3C04AA162384F3002A055A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3F3C04D31623B41E002A055A /* Table Cells */,
 				3F3C04A9162384EB002A055A /* Application */,
-				3F3C04AB162384F8002A055A /* ViewControllers */,
+				3F3C04B216238736002A055A /* Maps */,
+				3F3C04AB162384F8002A055A /* View Controllers */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		3F3C04AB162384F8002A055A /* ViewControllers */ = {
+		3F3C04AB162384F8002A055A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				3F3C04AC162385E6002A055A /* Tab 1 -Locations */,
 				3F3C04AD162385F3002A055A /* Tab 2 - Locations Map */,
 			);
-			name = ViewControllers;
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		3F3C04AC162385E6002A055A /* Tab 1 -Locations */ = {
@@ -161,6 +211,9 @@
 				3F3C048F16238441002A055A /* LocationsListViewController.h */,
 				3F3C049016238441002A055A /* LocationsListViewController.m */,
 				3F3C049D16238441002A055A /* LocationsListViewController.xib */,
+				3F3C04F11623C579002A055A /* DetailViewController.h */,
+				3F3C04F21623C579002A055A /* DetailViewController.m */,
+				3F3C04F31623C579002A055A /* DetailViewController.xib */,
 			);
 			name = "Tab 1 -Locations";
 			sourceTree = "<group>";
@@ -173,6 +226,43 @@
 				3F3C04A016238441002A055A /* LocationsMapViewController.xib */,
 			);
 			name = "Tab 2 - Locations Map";
+			sourceTree = "<group>";
+		};
+		3F3C04B216238736002A055A /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C04CE162389CB002A055A /* Custom Annotations */,
+				3F3C04CF162389E5002A055A /* Map Manager */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		3F3C04CE162389CB002A055A /* Custom Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C04D016238A08002A055A /* JFMapAnnotation.h */,
+				3F3C04D116238A08002A055A /* JFMapAnnotation.m */,
+			);
+			name = "Custom Annotations";
+			sourceTree = "<group>";
+		};
+		3F3C04CF162389E5002A055A /* Map Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C04B316238768002A055A /* JFMapManager.h */,
+				3F3C04B416238768002A055A /* JFMapManager.m */,
+			);
+			name = "Map Manager";
+			sourceTree = "<group>";
+		};
+		3F3C04D31623B41E002A055A /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C04D41623B448002A055A /* JFMainCell.h */,
+				3F3C04D51623B448002A055A /* JFMainCell.m */,
+				3F3C04D71623B46D002A055A /* JFMainCell.xib */,
+			);
+			name = "Table Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,15 +317,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3C048216238441002A055A /* InfoPlist.strings in Resources */,
-				3F3C048A16238441002A055A /* Default.png in Resources */,
-				3F3C048C16238441002A055A /* Default@2x.png in Resources */,
-				3F3C048E16238441002A055A /* Default-568h@2x.png in Resources */,
-				3F3C049316238441002A055A /* first.png in Resources */,
-				3F3C049516238441002A055A /* first@2x.png in Resources */,
-				3F3C049A16238441002A055A /* second.png in Resources */,
-				3F3C049C16238441002A055A /* second@2x.png in Resources */,
 				3F3C049F16238441002A055A /* LocationsListViewController.xib in Resources */,
 				3F3C04A216238441002A055A /* LocationsMapViewController.xib in Resources */,
+				3F3C04D81623B46D002A055A /* JFMainCell.xib in Resources */,
+				3F3C04DA1623B566002A055A /* icon.png in Resources */,
+				3F3C04DC1623B568002A055A /* icon@2x.png in Resources */,
+				3F3C04E01623B5B2002A055A /* Default.png in Resources */,
+				3F3C04E21623B5B5002A055A /* Default@2x.png in Resources */,
+				3F3C04E41623B5B7002A055A /* Default-568h@2x.png in Resources */,
+				3F3C04E71623BB64002A055A /* map_pin.png in Resources */,
+				3F3C04E81623BB64002A055A /* map_pin@2x.png in Resources */,
+				3F3C04ED1623C23B002A055A /* list_default.png in Resources */,
+				3F3C04EE1623C23B002A055A /* list_default@2x.png in Resources */,
+				3F3C04EF1623C23B002A055A /* map-marker.png in Resources */,
+				3F3C04F01623C23B002A055A /* map-marker@2x.png in Resources */,
+				3F3C04F51623C579002A055A /* DetailViewController.xib in Resources */,
+				3F3C04FA1623C62F002A055A /* Detail-Fade.png in Resources */,
+				3F3C04FB1623C62F002A055A /* Detail-Fade@2x.png in Resources */,
+				3F3C04FC1623C62F002A055A /* Drop-Shadow.png in Resources */,
+				3F3C04FD1623C62F002A055A /* Drop-Shadow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +350,10 @@
 				3F3C048816238441002A055A /* AppDelegate.m in Sources */,
 				3F3C049116238441002A055A /* LocationsListViewController.m in Sources */,
 				3F3C049816238441002A055A /* LocationsMapViewController.m in Sources */,
+				3F3C04B516238768002A055A /* JFMapManager.m in Sources */,
+				3F3C04D216238A08002A055A /* JFMapAnnotation.m in Sources */,
+				3F3C04D61623B448002A055A /* JFMainCell.m in Sources */,
+				3F3C04F41623C579002A055A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

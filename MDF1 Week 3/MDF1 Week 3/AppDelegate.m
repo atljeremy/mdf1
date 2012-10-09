@@ -20,8 +20,11 @@
     LocationsListViewController *locationsList = [[LocationsListViewController alloc] initWithNibName:@"LocationsListViewController" bundle:nil];
     LocationsMapViewController  *locationsmap  = [[LocationsMapViewController alloc] initWithNibName:@"LocationsMapViewController" bundle:nil];
     
+    UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:locationsList];
+    navController.navigationBar.tintColor = [UIColor blackColor];
+    
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[locationsList, locationsmap];
+    self.tabBarController.viewControllers = @[navController, locationsmap];
     
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];

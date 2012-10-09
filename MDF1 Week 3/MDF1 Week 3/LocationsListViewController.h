@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JFMapManager.h"
 
-@interface LocationsListViewController : UIViewController
+@interface LocationsListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UITableView* tableView;
+@property (nonatomic, weak) NSMutableArray*       locations;
+@property (nonatomic, weak) JFMapManager*         mapManager;
 
 @end

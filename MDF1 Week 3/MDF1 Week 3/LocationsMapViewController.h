@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "JFMapManager.h"
 
-@interface LocationsMapViewController : UIViewController
+@interface LocationsMapViewController : UIViewController <MKMapViewDelegate>
+
+@property (nonatomic, weak) IBOutlet MKMapView* mapView;
+@property (nonatomic, weak) NSMutableArray*     locations;
+@property (nonatomic, weak) JFMapManager*       mapManager;
 
 @end
