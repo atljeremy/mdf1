@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ResponseViewController.h
 //  MDF1 Week 4
 //
 //  Created by Jeremy Fox on 10/15/12.
@@ -9,12 +9,14 @@
 //  Web Service Information: http://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html
 
 #import <UIKit/UIKit.h>
-#import "ResponseViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+@interface ResponseViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) UITabBarController *tabBarController;
-@property (strong, nonatomic) ResponseViewController *responseVC;
+@property (weak, nonatomic) IBOutlet UIView *loadingView;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (weak, nonatomic) IBOutlet UITextView *responseTextView;
+@property (strong, nonatomic) NSString* responseString;
+
+- (void)setResponseText:(NSString*)responseText;
 
 @end

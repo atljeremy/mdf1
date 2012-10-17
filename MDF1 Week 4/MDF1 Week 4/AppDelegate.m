@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 Jeremy Fox. All rights reserved.
 //
 //  Web Service URL: http://itunes.apple.com/search?term=steven+spielberg&media=movie&entity=movie&attribute=producerTerm&limit=20
+//  Web Service Information: http://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
-#import "SecondViewController.h"
 #import "JFRequest.h"
 
 #define kiTunesWebServiceURLString @"http://itunes.apple.com/search?term=steven+spielberg&media=movie&entity=movie&attribute=producerTerm&limit=20"
@@ -21,12 +21,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     UIViewController *mainVC = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
-    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    self.responseVC = [[ResponseViewController alloc] initWithNibName:@"ResponseViewController" bundle:nil];
     
     UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:mainVC];
     
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[navController, viewController2];
+    self.tabBarController.viewControllers = @[navController, self.responseVC];
     
     JFRequest* request = [[JFRequest alloc] initWithDelegate:(id<JFRequestDelegate>)mainVC];
     [request performSelectorInBackground:@selector(performRequestForURL:) withObject:kiTunesWebServiceURLString];
