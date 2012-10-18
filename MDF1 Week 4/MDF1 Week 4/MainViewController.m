@@ -13,6 +13,7 @@
 #import "MovieCell.h"
 #import "ResponseViewController.h"
 #import "AppDelegate.h"
+#import "DetailViewController.h"
 
 #define kMoviewCellIdentifier @"movieCell"
 #define kMovieCellHeight      115
@@ -24,7 +25,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Spielberg Films", @"Spielberg Films");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.tabBarItem.image = [UIImage imageNamed:@"movie_director_icon"];
     }
     return self;
 }
@@ -119,6 +120,16 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return kMovieCellHeight;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSDictionary* currentMovie = [self.moviesArray objectAtIndex:indexPath.row];
+    
+    DetailViewController* detailVC = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+    detailVC.movie = currentMovie;
+    
+    [self.navigationController pushViewController:detailVC animated:YES];
 }
 
 @end
