@@ -44,6 +44,35 @@
     NSMutableData* data = [NSMutableData dataWithContentsOfURL:[NSURL URLWithString:url]];
     
     if (data) {
+        
+        /**
+         * PLEASE NOTE: The web service I'm using returns a JSON response. 
+         * The ONLY difference between an XML or JSON response would be to use 
+         * NSXMLParser to parse the XML or to use NSJSONSerialization to parse the JSON.
+         * 
+         * To use the NSXMLParser we would simply create and instance of it, then set it's 
+         * delegate to "self", and make sure we set our class as an "NSXMLParserDelegate" 
+         * and override the delegate method listed below to retreive elements.
+         * 
+         * parser:didStartElement:namespaceURI:qualifiedName:attributes:
+         *
+         * Parameters
+         * parser
+         * A parser object.
+         *
+         * elementName
+         * A string that is the name of an element (in its start tag).
+         *
+         * namespaceURI
+         * If namespace processing is turned on, contains the URI for the current namespace as a string object.
+         *
+         * qualifiedName
+         * If namespace processing is turned on, contains the qualified name for the current namespace as a string object..
+         *
+         * attributeDict
+         * A dictionary that contains any attributes associated with the element. Keys are the names of attributes, and values are attribute values.
+         * 
+         */
         NSError* error;
         NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
         
